@@ -1,0 +1,134 @@
+
+body{   margin : 0px;}
+
+
+    /* background- por gustavo santana Editada */
+    body{
+        margin: 0px;
+        background-image: url(../img/fundo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header{
+        height: 180px;
+    }
+    header #cabecalho{
+        background: #00003F;
+    }
+    header .logo{
+        width: 245px;
+        height: 100px;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    main .fundoMesGratis{
+        margin-top: -20px;
+        width: 886px;
+        height: 710px;
+        background: #00003F;
+        box-shadow: -30px 33px 20px 0px rgba(0, 0, 0, 0.70);
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 150px;
+    }
+   
+.text{
+        color: #FFF;
+        margin-top: -250px;
+    }
+    .ing{
+        width: 60%;
+        display: flex;
+        justify-content: flex-start;
+        color: #FFF;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 25px;
+        font-style: normal;
+    }
+
+    .ing h6 {
+        margin-bottom: -100px;
+    }
+
+
+    .custom_input {
+        margin-top: 80px;
+    }
+
+    body main .fundoMesGratis .divBotao {
+        margin-top: 120px;
+        font-family: "Josefin Sans";
+
+    }
+    .continuarBotao{        
+        color: #FFF;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #7059E6;
+        padding: 12px 100px;
+        border-radius: 50px;
+        position: relative;
+      
+       
+     
+      
+
+    }
+    .continuarBotao:link {
+      text-decoration: none;
+    }
+    .continuarBotao:hover {
+        background-color: #3019B4;
+    }
+    .continuarBotao:active {
+        background-color: #100866;
+    }
+    footer{
+        height: 150px;
+    }
+    footer #rodape{
+        background: #00003F;
+        color: #FFF;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        position: sticky;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        height: 150px;
+        margin: 0px;
+        padding: 10px;
+    }
+    .custom_input {
+        display: flex;
+        align-items: center;
+        position: relative;
+        max-width: 100%;
+    }
+    
+    .input {
+        padding: 8px 200px;
+        width: 100%;
+        outline: none;
+        background:  rgba(0, 0, 0, 0.70);;
+        color: #000000;
+        border-radius: 20px;
+        transition: .3s ease;
+    }
+    .input::placeholder {
+        color: #DDDDDD;
+    }
+
+
